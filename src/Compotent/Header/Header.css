@@ -1,0 +1,48 @@
+.header{
+    background-color: aliceblue;
+    box-shadow: 5px 5px 50px black;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   position: sticky;
+   top: 0;
+}
+.logo{
+    margin-left: 20px;
+    height: 80px;
+    border-radius: 50%;
+}
+.shop-name{
+    color: blue;
+}
+.h-container{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: large;
+    margin-right: 10px;
+    color: blue;
+    font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+  .shop-name{
+   font-size: 15px;
+}
+    .logo{
+        height: 50px;
+        margin-left: 0;
+    }
+    .nav-link{
+        text-decoration: none;
+        font-size: 15px;
+        margin-right: 5px;
+        color: blue;
+        font-weight: 500;
+    }
+    .header{
+        justify-content: space-between;
+    }
+  }
